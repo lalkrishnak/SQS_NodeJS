@@ -91,3 +91,4 @@ var server = app.listen(80, function () {
     var port = server.address().port;
 
     console.log('AWS SQS App Listening at http://%s:%s', host, port);
+});
